@@ -12,7 +12,7 @@ app.get("/", async(req, res) =>{
     const item = new ItemModel({
         imageURL: "abcd@gamil.com",
         title: "harsh harsh harsh",
-        desc: "harsh harshharsh harsh harsh harsh harsh harsh"
+        desc: "harsh harsh harsh harsh harsh harsh harsh harsh"
     });
 
     try{

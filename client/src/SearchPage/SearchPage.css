@@ -1,0 +1,135 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.logo{
+    position: absolute;
+    left: 50px;
+    height: 50px;
+    margin-top: 15px;
+
+}
+
+.CartPageButton {
+    margin-top: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+    position: absolute;
+    right: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding:3px;
+}
+
+.CartPageButton:hover{
+    background-color: rgb(190, 184, 184);
+    
+}
+
+.cart-label{
+    margin-top: 0px;
+    font-size:18px;
+    color: rgb(71, 70, 70);
+}
+
+.CartPageButton svg{
+    
+    height: 40px;
+    width: auto;
+}
+
+.searchNavbar{
+    border: 0px solid black;
+    background-color: white;
+    position:sticky;
+    top:0;
+    height: 70px;
+    box-shadow: 0px 5px 5px 0px rgba(145,140,140,0.75);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(145,140,140,0.75);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(145,140,140,0.75);
+}
+
+.items-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.image-card{
+    width:20%;
+    border:0px solid black;
+    margin: 5px;
+    margin-top: 50px;
+}
+
+.image-card:hover {
+    box-shadow: 0px 0px 5px 3px rgba(184,182,182,0.75);
+-webkit-box-shadow: 0px 0px 5px 3px rgba(184,182,182,0.75);
+-moz-box-shadow: 0px 0px 5px 3px rgba(184,182,182,0.75);
+}
+
+.image-card p{
+    text-align: left;
+    padding-left: 30px;
+    margin: 3px;
+}
+
+.cart-form{
+    padding: 10px;
+    border: 0px solid orange;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.cart-form input{
+    width: 50px;
+    height: 30px;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.cart-form input:focus{
+    outline: none;
+    border-color: #5287b3;
+    box-shadow: 0 0 10px #5287b3;
+}
+
+.cart-form button{
+    padding:5px;
+    color: rgb(44, 156, 184);
+    background-color: transparent;
+    border:0px;
+    border-radius: 5px;
+}
+
+.cart-form button:hover{
+    cursor: pointer;
+    background-color: rgb(190, 184, 184);
+}
+
+.cart-form label{
+    font-weight: 700;
+}
+.cart-form svg{
+    height: 30px;
+    width: auto;
+}
+
+.delete-item{
+    margin-top: 5px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.delete-item:hover{
+    cursor: pointer;
+    background-color: rgb(224, 217, 217);
+}
+
+.delete-item label{
+    color: rgb(241, 86, 86);
+}

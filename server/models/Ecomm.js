@@ -12,7 +12,9 @@ const EcommSchema = mongoose.Schema({
     desc: {
         type: String,
         required: true
-    }
+    },
+    quantity: Number,
+    cartStatus: Boolean
 });
 
 const Items = mongoose.model("items", EcommSchema);

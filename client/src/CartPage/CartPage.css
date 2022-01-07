@@ -1,0 +1,36 @@
+.items-table th, td {
+    border:1px solid black;
+    padding: 10px 20px;
+}
+
+table{
+
+border-collapse: collapse;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.cart-nav{
+    margin-top: 30px;
+}
+.searchPageButton {
+    text-decoration: none;
+    padding:20px;
+    border: 1px solid grey;
+    border-radius: 20%/50%;
+    margin-top: 50px;
+    margin: 10px;
+}
+
+.searchPageButton:hover{
+    background-color: rgb(190, 184, 184);
+}
+
+.empty-cart{
+    margin-top: 100px;
+}
+
+.non-empty-cart{
+    margin-top: 50px;
+}

@@ -56,11 +56,11 @@ function SearchPage(){
                 return(
                 <div className="image-card" key={index}>
                     <img alt={`${item.title}_img `}src={item.imageURL}></img>
-                    <p>{item.title}</p>
-                    <p>{item.desc}</p>
+                    <p className="item-title">{item.title}</p>
+                    <p className="item-desc">{item.desc}</p>
                     <div className="add-to-cart">
                         <form className="cart-form">
-                        <label>Quantity : </label>
+                        <label className="item-quant">Quantity : </label>
                         <input onChange={(event)=>{
                             setNewQuant(event.target.value);
                         }} type="number" />
